@@ -2,6 +2,7 @@
 
 
 namespace Owuan\LumenResource;
+
 use Illuminate\Support\Str;
 use Laravel\Lumen\Routing\Router as BaseRouter;
 
@@ -18,7 +19,7 @@ class Router extends BaseRouter
      * @param array $options
      * @return $this
      */
-    public function resource(string $route, string $controller, array $options)
+    public function resource(string $route, string $controller, array $options = [])
     {
         $registrar = new ResourceRegistrar($this);
 
@@ -33,7 +34,8 @@ class Router extends BaseRouter
      * @param array $options
      * @return $this
      */
-    public function apiResource(string $route, string $controller, array $options){
+    public function apiResource(string $route, string $controller, array $options = [])
+    {
         $this->resource($route, $controller, $options);
     }
 
