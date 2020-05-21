@@ -3,7 +3,7 @@
   "description": "add resource routing functionality to lumen ",
   "minimum-stability": "stable",
   "license": "MIT",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "authors": [
     {
       "name": "vahit sağlam",
