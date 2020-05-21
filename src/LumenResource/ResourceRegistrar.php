@@ -18,7 +18,7 @@ class ResourceRegistrar
      *
      * @var array
      */
-    protected $resourceDefaults = ['index', 'create', 'store', 'show', 'edit', 'update', 'destroy'];
+    protected $resourceDefaults = ['index', 'store', 'show', 'update', 'destroy'];
 
     /**
      * The parameters set for this resource instance.
