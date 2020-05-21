@@ -29,6 +29,8 @@ class Router extends BaseRouter
     }
 
     /**
+     * add api resource
+     *
      * @param string $route
      * @param string $controller
      * @param array $options
